@@ -14,7 +14,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -45,6 +45,27 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+      "server": "89.105.206.124",
+      "server_port": 443,
+      "uuid": "4360f941-b541-00e9-8507-2de3763e0cfd",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.convert-flow.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w",
+          "short_id": "00a61d55a07de885"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe",
       "server": "5.253.42.163",
       "server_port": 40443,
       "uuid": "15fd22d1-8931-4d41-af37-8ba6711e93fe",
@@ -54,7 +75,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -70,7 +91,8 @@
         "auto",
         "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe"
       ]
     },
     {
@@ -79,7 +101,8 @@
       "outbounds": [
         "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+        "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
