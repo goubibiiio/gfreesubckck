@@ -5,20 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 188.114.97.6
-  port: 2053
+  server: 129.151.64.169
+  port: 31867
   udp: true
   type: vless
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /files
     headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
